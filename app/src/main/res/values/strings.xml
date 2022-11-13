@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CasaInteligenteAPP</string>
+    <string name="turnonled1">Led 1</string>
+    <string name="turnonled2">Led 2</string>
+    <string name="turnonled3">Led 3</string>
+    <string name="turnonled4">Led 4</string>
+    <string name="turnonled5">Led 5</string>
+    <string name="opendoor">Abrir Puerta</string>
+    <string name="closedoor">Cerrar Puerta</string>
+    <string name="opengarage">Abrir Cochera</string>
+    <string name="closegarage">Cerrar Cochera</string>
+    <string name="fan">Ventilador</string>
+    <string name="esp32Conexion">Probar Conexion</string>
+</resources>

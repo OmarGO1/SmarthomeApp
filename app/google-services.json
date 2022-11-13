@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552329127876",
+    "project_id": "casainteligenteapp-d118e",
+    "storage_bucket": "casainteligenteapp-d118e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552329127876:android:61edb7869446f695d0e691",
+        "android_client_info": {
+          "package_name": "com.example.casainteligenteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552329127876-t4r71qel8l49h45ilgpju3kmkcf53h2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKttAYlTWLWLG6GV_nMga0Usb7-ZKz-LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552329127876-t4r71qel8l49h45ilgpju3kmkcf53h2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <Button
+        android:id="@+id/fan"
+        android:layout_width="111dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/fan"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toEndOf="@+id/led5" />
+
+    <SeekBar
+        android:id="@+id/intensitybarLed5"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="44dp"
+        android:max="255"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/led5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toEndOf="@+id/intensitybarLed4"
+        app:layout_constraintTop_toBottomOf="@+id/led2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <SeekBar
+        android:id="@+id/intensitybarLed4"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="44dp"
+        android:max="255"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/led4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/led1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/led3"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/turnonled3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <SeekBar
+        android:id="@+id/intensitybarLed1"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="52dp"
+        android:max="255"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/led1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/led2"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/turnonled2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/led3"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/led1" />
+
+    <Button
+        android:id="@+id/led5"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/turnonled5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/intensitybarLed3"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="52dp"
+        android:max="255"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/led3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/led4"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/turnonled4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/led5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/intensitybarLed2"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="52dp"
+        android:max="255"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/led2"
+        app:layout_constraintEnd_toStartOf="@+id/intensitybarLed3"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toEndOf="@+id/intensitybarLed1" />
+
+    <Button
+        android:id="@+id/led1"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="236dp"
+        android:text="@string/turnonled1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnservococheraclose"
+        android:layout_width="166dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/closedoor"
+        app:layout_constraintBottom_toTopOf="@+id/btnservopuertaclose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toEndOf="@+id/btnservococheraopen" />
+
+    <Button
+        android:id="@+id/btnservopuertaclose"
+        android:layout_width="166dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/closegarage"
+        app:layout_constraintBottom_toTopOf="@+id/intensitybarLed3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnservopuertaopen" />
+
+    <Button
+        android:id="@+id/btnservopuertaopen"
+        android:layout_width="166dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/opengarage"
+        app:layout_constraintBottom_toTopOf="@+id/intensitybarLed1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnservococheraopen"
+        android:layout_width="166dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/opendoor"
+        app:layout_constraintBottom_toTopOf="@+id/btnservopuertaopen"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_esp32conexion"
+        android:layout_width="59dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/esp32Conexion"
+        android:textSize="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toEndOf="@+id/conexion_status"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conexion_status"
+        android:layout_width="229dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="El esp32 está desconectado"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conexion_status2" />
+
+    <TextView
+        android:id="@+id/conexion_status2"
+        android:layout_width="229dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        android:text="No hay conexion con la bd"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
